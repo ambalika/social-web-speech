@@ -22,7 +22,7 @@ recognition.onresult = function(event) {
 	}
     }
 
-    final_span.innerHTML = final_transcript;
+    $('#final_span').val(final_transcript);
     interim_span.innerHTML = interim_transcript;
     console.log("result!");
 
